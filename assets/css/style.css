@@ -152,16 +152,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu li + li {
-  margin-left: 30px;
+  margin-left: 40px;
 }
 
 .nav-menu a {
   display: block;
   position: relative;
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 16px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: Courier, monospace, sans-serif;
+  font-weight: 200;
 }
 
 .nav-menu a:before {
@@ -179,7 +179,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu a:hover:before, .nav-menu li:hover > a:before, .nav-menu .active > a:before {
   visibility: visible;
-  width: 25px;
+  width: 40px;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
@@ -373,9 +373,9 @@ section .container {
   color: #fff;
 }
 
-/*--------------------------------------------------------------
+/*-----------------------------------------------
 # About
---------------------------------------------------------------*/
+------------------------------------------------*/
 .about-me .content h3 {
   font-weight: 700;
   font-size: 26px;
