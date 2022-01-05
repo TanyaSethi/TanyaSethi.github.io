@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+</style>
+<body class="w3-light-grey">
+  
+
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1400px">
+
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-32"> 
+  <h1><b>Happy Birthday Cheeku! </b></h1>
+  <p>This webpage is only available for a limited time, and <span class="w3-tag"> on special demand </span> 😉</p>
+</header>
+
+<!-- Grid -->
+<div class="w3-row">
+
+<!-- Blog entries -->
+<div class="w3-col l8 s12">
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+    <img src="resources/static/together.jpg" alt="together" style="width:100%">
+    <div class="w3-container">
+      <h3><b>THESE SMILES!</b></h3>
+      <h5> <span class="w3-opacity">CP, New Delhi, November 28, 2021</span></h5>
+    </div>
+    <audio id="song1">
+      <source src="resources/static/song1.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <audio id="song2">
+      <source src="resources/static/song2.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <audio id="song3">
+      <source src="resources/static/song3.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <div class="w3-container">
+      <p>
+        You know what you've got into, in the last 6 months, right? <br/>
+        If not, let me tell you a breif list - <br/>
+        I will mess with your hair, will steal and wear your hoodies, will annoy you in every way possible. <br/>
+        I will make coffee for you in the rain :) <br/>
+        I will listen to you talking for hours about the things you love. <br/>
+        I will wrap my arms around you for no reason <br/>
+        Whenever you'd be upset, I'll cheer you up with an ice cream and sing a song for you on my guitar. <br/>
+        <br/> 
+      </p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-large w3-white w3-border" onclick="playSong1()"><b>LISTEN »</b></button></p>
+          <script>
+            function playSong1() {
+              var s1 = document.getElementById("song1");
+              s1.play();
+            }
+            </script>
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+          <p><span class="w3-padding-large w3-right"><b>Love</b> <span class="w3-tag">∞</span></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+    <img src="resources/static/firstDate.jpg" alt="Love" style="width:20%">
+    <img src="resources/static/love.jpg" alt="Love" style="width:20%">
+    <img src="resources/static/auto.jpg" alt="Love" style="width:20%">
+    <img src="resources/static/lookup.jpg" alt="Love" style="width:20%">
+
+    <div class="w3-container">
+      <h3><b>CUTIEE'S</b></h3>
+      <h5> <span class="w3-opacity">You feel like home Aakash! </span></h5>
+    </div>
+
+    <div class="w3-container">
+      <p>
+        Tu kya jaane teri khaatir, Kitna hai betaab ye dil ❤️<br/>
+        Tu kya jaane dekh raha hai kese kese khwaab ye dil <br/>
+
+        Dil kehta hai tu hai yaha to jaata lamha tham jaaye, <br/>
+        Waqt ka dariya behte behte, is manzar me jam jaaye ❤️
+      </p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p><button class="w3-button w3-padding-large w3-white w3-border" onclick="playSong2()"><b>LISTEN »</b></button></p>
+          <script>
+            function playSong2() {
+              var s2 = document.getElementById("song2");
+              s2.play();
+            }
+            </script>
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+            <p><span class="w3-padding-large w3-right"><b>Love</b> <span class="w3-tag">∞</span></span></p> 
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- END BLOG ENTRIES -->
+</div>
+
+<!-- Introduction menu -->
+<div class="w3-col l4">
+  <!-- About Card -->
+  <div class="w3-card w3-margin w3-margin-top">
+  <img src="resources/static/holdingHands.jpg" style="width:100%">
+    <div class="w3-container w3-white">
+      <h4><b>Hold my hand forever, will you? </b></h4>
+      <p>Aakash, You are literally the best-est thing happened to me in the whole 2021. Not just 2021, the best happened to me ever! 
+      <br/>I've never been this happier, at this much peace. 
+      <br/>My soul feels happy, and it is because of you! Whenever you are around, everything seems magical Aakash. 🥺 
+      <br/>Hold my hand forever, will you? </p>
+    </div>
+  </div><hr>
+  
+  <!-- Posts -->
+  <div class="w3-card w3-margin">
+    <div class="w3-container w3-padding">
+      <h4>Your Lovely Clicks 😆</h4>
+    </div>
+    <ul class="w3-ul w3-hoverable w3-white">
+      <li class="w3-padding-16">
+        <img src="resources/static/cleanShave.jpg" alt="Image" class="w3-left w3-margin-right" style="width:80px">
+        <span class="w3-large">👶🏻</span><br>
+        <span>Chhotu chhotu baby - literally! 😘</span>
+      </li>
+      <li class="w3-padding-16">
+        <img src="resources/static/dance.jpg" alt="Image" class="w3-left w3-margin-right" style="width:80px">
+        <span class="w3-large">Dancer baby</span><br>
+        <span>I wish I can see this historic moment again!</span>
+      </li> 
+      <li class="w3-padding-16">
+        <img src="resources/static/monkey.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">Mera bandar!</span><br>
+        <span>Itna cute bandar kahi dekhne ko milega kisi ko?</span>
+      </li>   
+      <li class="w3-padding-16 w3-hide-medium w3-hide-small">
+        <img src="resources/static/whiteBeard.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <span class="w3-large">white mooch wala baby :)</span><br>
+        <span>ye dekho zara badmaash bache ko</span>
+      </li>  
+    </ul>
+  </div>
+  <hr> 
+ 
+  <!-- Labels / tags -->
+  <div class="w3-card w3-margin">
+    <div class="w3-container w3-padding">
+      <h4>Polymorphism</h4>
+    </div>
+    <div class="w3-container w3-white">
+    <p><span class="w3-tag w3-black w3-margin-bottom">Cheeku</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Golu Molu</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Gigloo</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Babuu</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Cutoo</span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Baby</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom"></span> <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Bebbuuu</span>
+      <span class="w3-tag w3-light-grey w3-small w3-margin-bottom">Chhota bacha</span>
+    </p>
+    </div>
+  </div>
+
+  
+<!-- END Introduction Menu -->
+</div>
+
+<!-- END GRID -->
+</div><br>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-dark-grey w3-padding-32 w3-margin-top">
+  <!-- <button class="w3-button w3-black w3-disabled w3-padding-large w3-margin-bottom">Previous </button>
+  <button class="w3-button w3-black w3-padding-large w3-margin-bottom">Next  </button> -->
+  <p>Made with <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">Love</a>  ❤️</p>
+</footer>
+
+
+
+</body>
+</html>
